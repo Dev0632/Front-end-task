@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.unit-box {
+    border: 2px solid #ff5a79;
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    text-align: left;
+    position: relative;
+}
+
+.radio-container {
+    display: inline-block;
+}
+
+.unit-header {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.discount-tag {
+    background-color: #ff5a79;
+    color: white;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+
+.price-section {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.cut-price {
+    color: gray;
+}
+
+.most-popular-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ff5a79;
+    color: white;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+
+.dropdown-group {
+    margin: 5px 0;
+}
+
+label {
+    font-size: 12px;
+}
+
+.add-to-cart {
+    background-color: #ff5a79;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+}
